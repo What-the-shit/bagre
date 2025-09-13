@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bagre, o site mais medicina</title>
+  <link rel="stylesheet" href="stilo.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="img/images.ico" type="image/x-icon" />
+  <style>
+    #btnBraile {
+      font-family: 'Ubuntu', sans-serif;
+      background-color: #2a9d8f;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 700;
+      margin: 20px 0;
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+    #btnBraile:hover {
+      background-color: #21867a;
+    }
+    #btnBraile[aria-pressed="true"] {
+      background-color: #e76f51;
+    }
+
+    #voltarTopo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 1000;
+  transition: opacity 0.3s;
+}
+
+#voltarTopo img {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#voltarTopo img:hover {
+  opacity: 1;
+}
+
+  </style>
+</head>
+
+<body>
+  <input
+    type="text"
+    id="buscaRapida"
+    placeholder="pesquisar doenças"
+    class="ubuntu-light"
+    style="width: 100%; padding: 10px; margin-top: 20px; font-size: 16px; border-radius: 8px;"
+  />
+  <div id="batteryStatus" class="ubuntu-light">Carregando informações...</div>
+  <a href="gnome.html"><img src="img/images.jpeg" width="100" alt="Logo Bagre"/></a>
+  <img src="aki/apoiador.png" width="100">
+  <h1 class="ubuntu-bold">Bagre</h1>
+  <p class="ubuntu-regular-italic">
+    "como vai?", talvez venha no <a href="sobre.html">sobre</a>
+  </p>
+  <p class="ubuntu-light">existem muitas bactérias, sindromes, virus, cortes de veia no cerebro(AVC hemorragico), fungos e blá blá blá</p>
+  <h2 class="ubuntu-light">a medicina é sempre importante com links</h2>
+  <h1 class="ubuntu-bold">Doenças mais comuns</h1>
+  <h2 class="ubuntu-light"><a href="avc.html">Derrame Cerebral(AVC)</a></h2>
+  <h1 class="ubuntu-bold">Doenças</h1>
+  <h2 class="ubuntu-light"><a href="hpv.html">Papilomavirus</a></h2>
+  <h2 class="ubuntu-light"><a href="tuberculose.html">Tuberculose</a></h2>
+  <h2 class="ubuntu-light"><a href="hidrofobia.html">Medo de agua por saliva</a></h2>
+  <h2 class="ubuntu-light"><a href="gripe_aviária.html">Influenza H5N1</a></h2>
+  <h2 class="ubuntu-light"><a href="sarampo.html">Sarampo</a></h2>
+  <h2 class="ubuntu-light"><a href="covid.html">Coronavirus</a></h2>
+  <h2 class="ubuntu-light"><a href="escarlatina.html">Escarlatina</a></h2>
+  <h2 class="ubuntu-light"><a href="epilepsia_mio.html">Epilepsia Mioclônica</a></h2>
+  <h2 class="ubuntu-light"><a href="caxumba.html">Caxumba</a></h2>
+  <h2 class="ubuntu-light"><a href="coqueluche.html">Coqueluche</a></h2>
+  <h2 class="ubuntu-light"><a href="poliomielite.html">Poliomielite</a></h2>
+  <h2 class="ubuntu-light"><a href="variola.html">Varíola</a></h2>
+  <h2 class="ubuntu-light"><a href="HIV.html">HIV,ou AIDS</a></h2>
+  <h2 class="ubuntu-light"><a href="spm.html">TPM</a></h2>
+  <h2 class="ubuntu-light"><a href="impostor.html">Síndrome do Impostor</a></h2>
+  <h2 class="ubuntu-light"><a href="varicela.html">Varicela</a></h2>
+  <h2 class="ubuntu-light"><a href="Lepra.html">Lepra</a></h2>
+  <h2 class="ubuntu-light"><a href="marburg_e_ebola.html">Marburg e Ebola</a></h2>
+  <h2 class="ubuntu-light"><a href="sifilis.html">Sífilis</a></h2>
+  <h1 class="ubuntu-bold">Doenças mentais</h1>
+  <h2 class="ubuntu-light"><a href="esquizofrenia.html">Esquizofrenia</a></h2>
+  <h2 class="ubuntu-light"><a href="mal_de_alzheimer.html">Mal de Alzheimer(MDA)</a></h2>
+  <h2 class="ubuntu-light"><a href="mal_de_parkinson.html">Mal De Parkinson(MDP)</a></h2>
+  <h2 class="ubuntu-light"><a href="bipolart.html">Transtorno BIpolar</a></h2>
+  <h2 class="ubuntu-light"><a href="tesquizoafetivo.html">Transtorno esquizoafetivo</a></h2>
+  <h1 class="ubuntu-bold">bactérias</h1>
+  <h2 class="ubuntu-light"><a href="Gardnerella_vaginalis.html">Gardenerella v4ginalis</a></h2>
+  <h1 class="ubuntu-bold">Ginebagre</h1>
+  <h2 class="ubuntu-light"><a href="gonorreia.html">Gonorreia</a></h2>
+  <h2 class="ubuntu-light"><a href="Candidiase.html">Candidiase</a></h2>
+  <h1 class="ubuntu-bold"><a href="chame_o_samu.html">Chame o Samu( 192 )</a></h1>
+  <h1 class="ubuntu-bold">nossas redes sociais</h1>
+  <h2 class="ubuntu-light"><a href="https://mastodon.social/@vitinhovoador">meu mastodon</a></h2>
+  <h2 class="ubuntu-light"><a href="https://www.tiktok.com/@vitinho.3329">meu tiktok</a></h2>
+  <h1 class="ubuntu-bold">TEA</h1>
+  <h2 class="ubuntu-light"><a href="TEA.html">TEA</a></h2>
+  <h1 class="ubuntu-bold">exemplo</h1>
+  
+  <img
+    src="img/rabocka.gif"
+    width="250"
+    alt="um exemplo de Gardnerella v4ginalis"
+    id="meu"
+  />
+    <p class="ubuntu-light" id="altVisivel"></p>
+  <h1 class="ubuntu-bold">Canceres</h1>
+  <a href="cancer_de_colo_de_utero.html"><h2 class="ubuntu-light">Cancer de colo de utero</h2></a> 
+  <h1 class="ubuntu-bold">Parasitoses</h1>
+  <h2 class="ubuntu-light"><a href="cisticercose.html">Cisticercose</a></h2>
+  <h2 class="ubuntu-light"><a href="notes.html">notas</a></h2>
+  
+  <footer class="ubuntu-light">Victor, fui eu que fiz</footer>
+  <a href="SAMUzeiros.html"><img src="img/samu.png" width="250"></a>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <a href="veterinario.html"><h2 class="ubuntu-light">vetenaria</h2></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <br>
+  <h1 class="ubuntu-bold">@ 2025 Victor Company</h1>
+<img src="aki/chor.png" width="250">
+<img src="aki/arghh.png" width="250">
+<img src="aki/apoiador.png" width="250">
+<img src="aki/durmas.png" width="250">
+<img src="aki/legal.png" width="250">
+<img src="aki/nao_falar.png" width="250">
+<img src="aki/ri.png" width="250">
+<img src="aki/brava.png" width="250">
+  <script>
+    // Mostrar/esconder botão ao rolar
+window.addEventListener("scroll", function () {
+  const botao = document.getElementById("voltarTopo");
+  if (window.scrollY > 300) {
+    botao.style.display = "block";
+  } else {
+    botao.style.display = "none";
+  }
+});
+
+// Rolar suavemente ao clicar no botão
+document.getElementById("voltarTopo").addEventListener("click", function (e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+</script>
+
+  <!-- Botão Voltar ao Topo -->
+<a href="#" id="voltarTopo">
+  <img src="img/images.ico" alt="Voltar ao topo" width="250"/>
+</a>
+</body>
+</html>
