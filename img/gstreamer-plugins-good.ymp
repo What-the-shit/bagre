@@ -1,0 +1,142 @@
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+  <group>
+    <repositories>
+      <repository recommended="true">
+        <name>multimedia:libs</name>
+        <summary>Multimedia Libraries, Codecs and Command Line Tools</summary>
+        <description>This project is a central place for audio, video and image libraries for parsing multimedia data (also known as codecs), tags or containers. It is also a place for multimedia data processing libraries.
+Command line utilities without GUI toolkit dependencies can be placed into this project as well. Please don't place end-user GUI based applications here, put them into multimedia:apps. Base your project on packages in this project instead.
+
+This project also serves as development project for packages around this topic in the openSUSE:Factory distribution. If you want to participate you can contact us individually or use our mailinglist opensuse-packaging@opensuse.org. Please report bugs to the respective bugowners as set.
+
+</description>
+        <url>https://download.opensuse.org/repositories/multimedia:/libs/15.6/</url>
+      </repository>
+      <repository recommended="true">
+        <name>openSUSE:Leap:15.6:Update</name>
+        <summary>Online updates for openSUSE Leap 15.6</summary>
+        <description>This project is releasing the official updates for openSUSE Leap 15.6</description>
+        <url>https://download.opensuse.org/update/leap/15.6/oss/</url>
+      </repository>
+      <repository recommended="true">
+        <name>openSUSE:Leap:15.6</name>
+        <summary></summary>
+        <description>openSUSE Leap borrows packages from SLE. The content of the build media is almost the same as the previous Leap, but the development is drastic different. It includes the binaries (instead of the sources) directly from SLE. https://lists.opensuse.org/opensuse-factory/2020-04/msg00165.html</description>
+        <url>https://download.opensuse.org/repositories/openSUSE:/Leap:/15.6/standard/</url>
+      </repository>
+      <repository recommended="true">
+        <name>openSUSE:Backports:SLE-15-SP6:Checks</name>
+        <summary>Backports Checks for SLE-15-SP6</summary>
+        <description>Backports Checks for SLE-15-SP6</description>
+        <url>https://download.opensuse.org/repositories/openSUSE:/Backports:/SLE-15-SP6:/Checks/standard/</url>
+      </repository>
+      <repository recommended="true">
+        <name>openSUSE:Backports:SLE-15-SP6:Update</name>
+        <summary>Online updates for openSUSE:Backports:SLE-15-SP6</summary>
+        <description>This project is releasing updates for openSUSE:Backports SLE-15-SP6</description>
+        <url>https://download.opensuse.org/repositories/openSUSE:/Backports:/SLE-15-SP6:/Update/standard/</url>
+      </repository>
+      <repository recommended="true">
+        <name>openSUSE:Backports:SLE-15-SP6</name>
+        <summary>Backports project for SLE-15-SP6</summary>
+        <description>Backports project for SLE-15-SP6</description>
+        <url>https://download.opensuse.org/repositories/openSUSE:/Backports:/SLE-15-SP6/standard/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP6:Update</name>
+        <summary>SLE 15 SP6</summary>
+        <description>SLE 16 SP6</description>
+        <url>https://download.opensuse.org/update/leap/15.6/sle</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP6:GA</name>
+        <summary></summary>
+        <description></description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15-SP6:/GA/pool/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP5:Update</name>
+        <summary>SLE 15 SP5</summary>
+        <description>SLE 15 SP5</description>
+        <url>https://download.opensuse.org/update/leap/15.5/sle</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP5:GA</name>
+        <summary></summary>
+        <description></description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15-SP5:/GA/pool/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP4:Update</name>
+        <summary>SLE 15 SP4</summary>
+        <description>SLE 15 SP4</description>
+        <url>https://download.opensuse.org/update/leap/15.4/sle/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP4:GA</name>
+        <summary></summary>
+        <description></description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15-SP4:/GA/pool/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP3:Update</name>
+        <summary>SLE 15 SP3</summary>
+        <description>SLE 15 SP3</description>
+        <url>https://download.opensuse.org/update/leap/15.3/sle/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP3:GA</name>
+        <summary></summary>
+        <description></description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15-SP3:/GA/pool/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP2:Update</name>
+        <summary>SLE 15 SP2</summary>
+        <description>SLE 15 SP2</description>
+        <url>https://download.opensuse.org/update/leap/15.4/sle</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP2:GA</name>
+        <summary>SLE 15 SP2</summary>
+        <description>SLE 15 SP2</description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15-SP2:/GA/pool/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP1:Update</name>
+        <summary>SLE 15 SP1</summary>
+        <description>SLE 15 SP1</description>
+        <url>https://download.opensuse.org/update/leap/15.4/sle</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15-SP1:GA</name>
+        <summary>SLE 15 SP1</summary>
+        <description>SLE 15 SP1</description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15-SP1:/GA/pool/</url>
+      </repository>
+      <repository recommended="true">
+        <name>SUSE:SLE-15:Update</name>
+        <summary>SLE 15</summary>
+        <description>SLE 15</description>
+        <url>https://download.opensuse.org/update/leap/15.4/sle</url>
+      </repository>
+      <repository recommended="false">
+        <name>SUSE:SLE-15:GA</name>
+        <summary>SLE 15</summary>
+        <description>SLE 15</description>
+        <url>https://download.opensuse.org/repositories/SUSE:/SLE-15:/GA/pool/</url>
+      </repository>
+    </repositories>
+    <software>
+      <item>
+        <name>gstreamer-plugins-good</name>
+        <summary>GStreamer Streaming-Media Framework Plug-Ins</summary>
+        <description>GStreamer is a streaming media framework based on graphs of filters
+that operate on media data. Applications using this library can do
+anything media-related, from real-time sound processing to playing
+videos. Its plug-in-based architecture means that new data types or
+processing capabilities can be added simply by installing new plug-ins.</description>
+      </item>
+    </software>
+  </group>
+</metapackage>
