@@ -1,4 +1,4 @@
 # bagre
 Site oficial de medicina Bagre,feito para auxiliar médicos desorientados
 bagre não está mais em netlify
-![S1E15B_Sobbing_Lori](https://github.com/user-attachments/assets/1c146ee0-a614-41db-b371-f99a9bd4cc63)
+![chor](https://github.com/user-attachments/assets/14a724d2-15b1-4b9c-957d-4c9fb3072259)
