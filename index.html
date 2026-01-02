@@ -2,16 +2,24 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>você é um robo</title>
+  <title>Verificação</title>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
-  <form action="site.html" method="POST">
-    <div class="g-recaptcha" data-sitekey="6LcKfD0sAAAAABiLFLBDkcEiV78mUn58b7qBnnjC"></div>
-    <br>
-    <input type="submit" value="Entrar">
-  </form>
+
+<h2>Confirme que você não é um robô</h2>
+
+<div class="g-recaptcha"
+     data-sitekey="6LcKfD0sAAAAABiLFLBDkcEiV78mUn58b7qBnnjC"
+     data-callback="redirecionar">
+</div>
+
+<script>
+function redirecionar() {
+  window.location.href = "site.html";
+}
+</script>
 
 </body>
 </html>
