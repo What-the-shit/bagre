@@ -1,13 +1,16 @@
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+<html>
+  <head>
+    <title>verifique</title>
+      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
     async defer>
 </script>
-<form action="verificar.php" method="POST">
-  <div class="g-recaptcha" data-sitekey="6LcKfD0sAAAAABiLFLBDkcEiV78mUn58b7qBnnjC"></div>
-  <br>
-  <input type="submit" value="Entrar">
-</form>
-<script type="text/javascript">
-  var onloadCallback = function() {
-    alert("grecaptcha is ready!");
-  };
-</script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LcKfD0sAAAAABiLFLBDkcEiV78mUn58b7qBnnjC"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
